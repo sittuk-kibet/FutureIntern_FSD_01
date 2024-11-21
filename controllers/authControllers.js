@@ -1,6 +1,6 @@
 const db = require('../config/db');
 const bcrypt = require('bcryptjs')
-const { body, validationResult } = require ('express-validation';)// for inout validation
+const { body, validationResult } = require ('express-validation');// for inout validation
 
 ///user registration function
 exports.registerUser = [
